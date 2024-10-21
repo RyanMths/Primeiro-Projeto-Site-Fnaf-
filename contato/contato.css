@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.box{
+    background-color: blueviolet;
+    background-image: url('https://www.sociedadenerd.com.br/wp-content/uploads/2023/02/filme-FNAF-Five-Nights-at-Freddy-s.jpg');
+    display: flex;
+    width: 90%;
+    margin: 15px 5% 10px 5%;
+    flex-direction: row;
+}
+#title{
+    color: aliceblue;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(200, 0, 0, 0);
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    margin: 20px 5%;
+    width: 50%;
+}
+input{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+}
